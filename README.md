@@ -5,8 +5,7 @@
 
 
 ## 依赖包
-#### decorator
-无需安装任何包。在package.json中添加配置babel配置
+#### decorator 无需安装任何包。在package.json中添加配置babel配置
 ``` json
  "plugins": [
     [
@@ -17,3 +16,7 @@
     ]
   ]
 ```
+
+
+## VSCode工具报Experimental support for decorators is a feature....
+VSCode工具栏 File-preferences-settings，搜索user， 点最下面的TypeScript，点进去Edit in settings.json，在里面加入 ``` "javascript.implicitProjectConfig.experimentalDecorators": true ```
